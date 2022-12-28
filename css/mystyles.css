@@ -1,0 +1,39 @@
+header{
+    margin-top: 12rem;
+}
+.header-div--h1{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 5rem; 
+    COLOR: #005b9c; 
+    text-shadow: 0px 0px 9px #72b1ff;
+}
+
+.header-div--p{
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgb(255, 255, 255),0px -1px 1px rgba(0,0,0,0.3);
+}
+.div-ul--redes{
+    justify-content: end;
+}
+.svg-inline--fa {
+    height: 1.5em !important;
+}
+.section-about, .section-contact  {
+    background-color:#303b4fbb;
+}
+.footer{
+    background-color: black;
+}
+@media screen and (max-width: 993px) {
+    .ocultar-div{
+        display:none;
+    }
+}
