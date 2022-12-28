@@ -20,6 +20,12 @@ header{
     color: transparent; 
     text-shadow: 0px 3px 3px rgb(255, 255, 255),0px -1px 1px rgba(0,0,0,0.3);
 }
+.nav-redes{
+    display: flex;
+    margin-left: 1.2rem;
+    align-self: normal;
+    font-size: 1.2rem;
+}
 .div-ul--redes{
     justify-content: end;
 }
