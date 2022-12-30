@@ -1,12 +1,15 @@
 header{
-    margin-top: 12rem;
+    margin-top: 10rem;
 }
-.header-div--h1{
+.header-div--h1, .header-div--h2 {
     text-align: center; 
     font-family: Arial; 
     font-size: 5rem; 
-    COLOR: #005b9c; 
+    COLOR: #ffffff; 
     text-shadow: 0px 0px 9px #72b1ff;
+}
+.header-div--h2{
+    font-size: 2rem;
 }
 
 .header-div--p{
@@ -21,11 +24,12 @@ header{
     text-shadow: 0px 3px 3px rgb(255, 255, 255),0px -1px 1px rgba(0,0,0,0.3);
 }
 .nav-redes{
-    display: flex;
-    margin-left: 1.2rem;
-    align-self: normal;
+    width: 0;
+    padding: 0 2rem 0 2rem ;
     font-size: 1.2rem;
+    display: flex;
 }
+
 .div-ul--redes{
     justify-content: end;
 }
@@ -33,13 +37,72 @@ header{
     height: 1.5em !important;
 }
 .section-about, .section-contact  {
-    background-color:#303b4fbb;
+    padding: 6rem 0;
+    background-color:#303b4f67;
+}
+.section-services{
+    padding: 6rem 0;
 }
 .footer{
     background-color: black;
 }
+/* Grow Rotate */
+.grow-rotate {
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    -webkit-transition-property: transform;
+            transition-property: transform;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow-rotate:hover,
+.grow-rotate:focus,
+.grow-rotate:active{
+    -webkit-transform: scale(1.6) rotate(6deg);
+            transform: scale(1.6) rotate(6deg);
+}
+
+/* --------- animacion animista--------*/
+.kenburns-top {
+	-webkit-animation: kenburns-top 5s ease-out both;
+	        animation: kenburns-top 5s ease-out both;
+}
+ @-webkit-keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(-15px);
+              transform: scale(1.25) translateY(-15px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  @keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(-15px);
+              transform: scale(1.25) translateY(-15px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+/* Ocultar para el responsive */
 @media screen and (max-width: 993px) {
     .ocultar-div{
-        display:none;
+        display:none !important;
+    }
+    .header-div--h1{
+        font-size: 3rem;
     }
 }
