@@ -1,5 +1,6 @@
 header{
-    margin-top: 10rem;
+    margin: 10rem 0 5rem 0;
+    
 }
 .header-div--h1, .header-div--h2 {
     text-align: center; 
@@ -11,17 +12,20 @@ header{
 .header-div--h2{
     font-size: 2rem;
 }
-
+.seccion-div--h2{
+    text-align: center;
+}
 .header-div--p{
     text-align: center; 
-    font-family: Arial Black; 
-    font-weight: bold; font-size: 30px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 1.5rem; 
     background: #202020; 
     -webkit-background-clip: text; 
     -moz-background-clip: text; 
     background-clip: text; 
     color: transparent; 
-    text-shadow: 0px 3px 3px rgb(255, 255, 255),0px -1px 1px rgba(0,0,0,0.3);
+    text-shadow: 0px 3px 3px rgb(141, 245, 6),0px -1px 1px rgba(0,0,0,0.3);
 }
 .nav-redes{
     width: 0;
@@ -29,7 +33,9 @@ header{
     font-size: 1.2rem;
     display: flex;
 }
+.nav-link {
 
+}
 .div-ul--redes{
     justify-content: end;
 }
@@ -45,6 +51,9 @@ header{
 }
 .footer{
     background-color: black;
+}
+.footer-div--logobanu{
+    width: 12rem;
 }
 /* Grow Rotate */
 .grow-rotate {
