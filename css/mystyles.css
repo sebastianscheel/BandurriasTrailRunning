@@ -49,6 +49,12 @@ header{
 .section-services{
     padding: 6rem 0;
 }
+.div-seccion--contact{
+    text-align: -webkit-center;
+}
+.div-contact--p{
+    text-align: initial;
+}
 .footer{
     background-color: black;
 }
